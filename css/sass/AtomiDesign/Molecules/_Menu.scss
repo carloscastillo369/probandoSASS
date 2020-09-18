@@ -1,0 +1,19 @@
+.Menu {
+    width: 366px;
+    height: 28px;
+    @include fnn;
+    font-size: 20px;
+    line-height: 28px;
+    color: $fourth-color;
+    &-Items {
+        display: flex;
+    }
+    &-Link {
+        font-size: 20px;
+        margin-left: 25px;
+        &:hover {
+            @include fnb;
+            color:$second-color;
+        }
+    }
+}

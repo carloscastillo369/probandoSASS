@@ -1,0 +1,338 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 1366px;
+  height: 3876px;
+  margin: 0 auto;
+  border: 2px solid blue;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #FFFFFF;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+  font-size: 44px;
+  line-height: 74px;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.01em;
+  color: #356EAD;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.01em;
+  color: #1F3F68;
+}
+
+h4 {
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.01em;
+  font-size: 14px;
+  line-height: 24px;
+  color: #1F3F68;
+}
+
+h5 {
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.01em;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+p {
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.01em;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Logo {
+  width: 60px;
+  height: 32px;
+  position: relative;
+}
+
+.Logo-Right {
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  border: 2px solid #316099;
+  color: #316099;
+  background: #FFFFFF;
+  position: absolute;
+  margin-left: 20px;
+  z-index: 10;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Logo-Left {
+  width: 32px;
+  height: 32px;
+  background: #316099;
+  border-radius: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.Menu {
+  width: 366px;
+  height: 28px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.01em;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.Menu-Items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Menu-Link {
+  font-size: 20px;
+  margin-left: 25px;
+}
+
+.Menu-Link:hover {
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.01em;
+  color: #1F3F68;
+}
+
+.Jumbotron {
+  background: linear-gradient(253.6deg, #98D0FC 2.46%, #3481D7 93.24%);
+  width: 1362px;
+  height: 250px;
+  margin-left: -211px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  line-height: 30px;
+}
+
+.Jumbotron-Title {
+  width: 306px;
+  height: 74px;
+  margin-bottom: 20px;
+}
+
+.Jumbotron-Text {
+  color: #FFFFFF;
+  width: 780px;
+  height: 60px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.Search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 50px 0;
+  position: relative;
+}
+
+.Search-Img {
+  position: absolute;
+  left: 3%;
+}
+
+.Search-Input {
+  width: 940px;
+  height: 56px;
+  background: #F4F4F4;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.Search-Input::-webkit-input-placeholder {
+  font-size: 16px;
+  line-height: 18px;
+  padding-left: 50px;
+}
+
+.Search-Input:-ms-input-placeholder {
+  font-size: 16px;
+  line-height: 18px;
+  padding-left: 50px;
+}
+
+.Search-Input::-ms-input-placeholder {
+  font-size: 16px;
+  line-height: 18px;
+  padding-left: 50px;
+}
+
+.Search-Input::placeholder {
+  font-size: 16px;
+  line-height: 18px;
+  padding-left: 50px;
+}
+
+.Article--FirstArticle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  margin-bottom: 30px;
+}
+
+.Article--OthersArticle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 50px;
+  width: 300px;
+}
+
+.Article-Contain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Article--FirstArticleTitle {
+  font-size: 36px;
+  line-height: 46px;
+}
+
+.Article--PopularArticleTitle {
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.Article--OthersArticleTitle {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.Article--PopularArticleText {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.Article--OthersArticleText {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.Article-Foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Article-IconShare {
+  margin-left: 30px;
+}
+
+.PAGroup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Header {
+  width: 90%;
+  height: 120px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Main {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.Main-PATitle {
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 35px;
+}
+/*# sourceMappingURL=style.css.map */

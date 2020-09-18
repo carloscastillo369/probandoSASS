@@ -1,0 +1,23 @@
+.Search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    position: relative;
+    &-Img {
+        position: absolute;
+        left: 3%;
+    }
+    &-Input {
+        width: 940px;
+        height: 56px;
+        background: #F4F4F4;
+        border-radius: 10px;
+        font-size: 16px;
+        &::placeholder {
+            font-size: 16px;
+            line-height: 18px;
+            padding-left: 50px;
+        }
+    }
+}

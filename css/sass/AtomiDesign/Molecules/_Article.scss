@@ -1,0 +1,47 @@
+.Article {
+    &--FirstArticle {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: 30px;
+    }
+    &--OthersArticle {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+        width: 300px;
+    }
+    &-Contain {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    &--FirstArticleTitle {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    &--PopularArticleTitle {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    &--OthersArticleTitle {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    &--PopularArticleText{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    &--OthersArticleText {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    &-Foot {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-IconShare {
+        margin-left: 30px;
+    }
+}
+

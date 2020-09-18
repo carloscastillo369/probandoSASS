@@ -1,0 +1,16 @@
+@mixin fnn {
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.01em;
+}
+
+@mixin fnb {
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.01em;
+}
+
+@mixin flcreator {
+    font-size: 14px;
+    line-height: 24px;
+}

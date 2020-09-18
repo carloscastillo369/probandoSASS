@@ -1,0 +1,25 @@
+.Jumbotron {
+    background: $bg-jumbotron;
+    width: 1362px;
+    height: 250px;
+    margin-left: -211px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 30px;
+
+    &-Title {
+        width: 306px;
+        height: 74px;
+        margin-bottom: 20px;
+    }
+    &-Text {
+        color:$first-color;
+        width: 780px;
+        height: 60px;
+        font-size: 20px;
+        text-align: center;
+    }
+}

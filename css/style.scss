@@ -1,0 +1,17 @@
+$first-color:#FFFFFF;
+$second-color:#1F3F68;
+$third-color:#356EAD;
+$fourth-color:#000000;
+$fifth-color:rgba(0, 0, 0, 0.6);
+$logo-color:#316099;
+$bg-jumbotron: linear-gradient(253.6deg, #98D0FC 2.46%, #3481D7 93.24%);
+$bg-main:#FFFFFF;
+$bg-footer:#316099;
+
+@import './sass/Mixins/Mixin';
+@import './sass/AtomiDesign/Atoms/Atoms';
+@import './sass/AtomiDesign/Molecules/Molecules';
+@import './sass/AtomiDesign/Organisms/Organisms';
+
+
+

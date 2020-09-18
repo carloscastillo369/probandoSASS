@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>HACKATON Nº 5 SASS</title>
+</head>
+<body>
+    <!--Aqui empieza el header-->
+    <header class="Header">
+        <div class="Logo Header-Logo">
+            <a class="Logo-Link" href="#">
+                <div class="Logo-Left"></div>
+                <div class="Logo-Right">A</div>
+            </a>
+        </div>
+        <nav class="Menu Header-Menu">
+            <ul class="Menu-Items">
+                <li class="Menu-Item"><a class="Menu-Link" href="">Home</a></li>
+                <li class="Menu-Item"><a class="Menu-Link" href="">Espectaculo</a></li>
+                <li class="Menu-Item"><a class="Menu-Link" href="">Deportes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Aqui empieza el main-->
+    <main class="Main">
+
+        <!--Aqui empieza el home-->
+        <div class="Jumbotron Main-Jumbotron">
+            <h1 class="Jumbotron-Title">Blog Afrianska</h1>
+            <p class="Jumbotron-Text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+
+        <!--Aqui empieza el buscador de articulos-->
+        <form class="Search Main-Search">
+            <img class="Search-Img" src="./img/icon-search.png" alt="">
+            <input class="Search-Input" type="text" placeholder="Search Article">
+        </form>
+
+        <!--Aqui empieza popular articles-->
+        <div class="PopularArticles Main-PopularArticles">
+            <h2 class="Main-PATitle">POPULAR</h2>
+            <div class="Article Main-Article Article--FirstArticle">
+                <img class="Article-Img" src="./img/img-post-1.png" alt=""> 
+                <div class="Article-Contain">
+                    <h3 class="Article-Title Article--FirstArticleTitle">Feugiat sodales at nullam tellus.</h3>
+                    <p class="Article-Text Article--PopularArticleText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi posuere nibh tempor fringilla porta pellentesque ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="Article-Foot">
+                        <div class="Article-Creator">
+                            <h4 class="Article-CreatorName">Samatha Leuthex </h4>
+                            <h5 class="Article-PublishDate">May 5, 3 min read</h5>
+                        </div>
+                        <div class="Article-Icon">
+                            <img class="Article-IconSave" src="./img/icon-save.png" alt="">
+                            <img class="Article-IconShare" src="./img/icon-share.png" alt="">
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <div class="PAGroup Main-PAGroup">
+                <div class="Article PAGroup-Article Article--OthersArticle">
+                    <img class="Article-Img" src="./img/img-post-2.png" alt="">
+                    <div class="Article-Contain">
+                        <h3 class="Article-Title Article--PopularArticleTitle">Porta proin tellus sed pulvinar odio eu pulvinar.</h3>
+                        <p class="Article-Text Article--PopularArticleText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="Article-Foot">
+                            <div class="Article-Creator">
+                                <h4 class="Article-CreatorName">Samatha Leuthex </h4>
+                                <h5 class="Article-PublishDate">May 5, 3 min read</h5>
+                            </div>
+                            <div class="Article-Icon">
+                                <img class="Article-IconSave" src="./img/icon-save.png" alt="">
+                                <img class="Article-IconShare" src="./img/icon-share.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="Article PAGroup-Article Article--OthersArticle">
+                    <img class="Article-Img" src="./img/img-post-3.png" alt="">
+                    <div class="Article-Contain">
+                        <h3 class="Article-Title Article--PopularArticleTitle">Non quam tortor, proin eu egestas scelerisque.</h3>
+                        <p class="Article-Text Article--PopularArticleText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="Article-Foot">
+                            <div class="Article-Creator">
+                                <h4 class="Article-CreatorName">Samatha Leuthex </h4>
+                                <h5 class="Article-PublishDate">May 5, 3 min read</h5>
+                            </div>
+                            <div class="Article-Icon">
+                                <img class="Article-IconSave" src="./img/icon-save.png" alt="">
+                                <img class="Article-IconShare" src="./img/icon-share.png" alt="">
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+    
+                <div class="Article PAGroup-Article Article--OthersArticle">
+                    <img class="Article-Img" src="./img/img-post-4.png" alt="">
+                    <div class="Article-Contain">
+                        <h3 class="Article-Title Article--PopularArticleTitle">Amet amet sed pharetra risus sit eget interdum.</h3>
+                        <p class="Article-Text Article--PopularArticleText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="Article-Foot">
+                            <div class="Article-Creator">
+                                <h4 class="Article-CreatorName">Samatha Leuthex </h4>
+                                <h5 class="Article-PublishDate">May 5, 3 min read</h5>
+                            </div>
+                            <div class="Article-Icon">
+                                <img class="Article-IconSave" src="./img/icon-save.png" alt="">
+                                <img class="Article-IconShare" src="./img/icon-share.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#all-article">SEE ALL POPULAR ARTICLE</a>   
+        </div>
+
+        <div class="AllArticles Main-AllArticles">
+
+        </div>
+
+
+
+    </main>
+
+    <footer class="Footer">
+
+    </footer>
+
+
+    
+</body>
+</html>
